@@ -31,7 +31,7 @@ Geeker-Admin 一款基于 Vue3.3、TypeScript、Vite4、Pinia、Element-Plus 开
 - 使用 KeepAlive 对页面进行缓存，支持多级嵌套页面缓存
 - 常用自定义指令开发（权限、复制、水印、拖拽、节流、防抖、长按…）
 - 使用 Prettier 统一格式化代码，集成 ESLint、Stylelint 代码校验规范
-- 使用 husky、lint-staged、commitlint、czg、cz-git 规范提交信息
+- 使用 lint-staged、commitlint、czg、cz-git 规范提交信息
 
 ### 安装使用步骤 📔
 
@@ -122,7 +122,6 @@ pnpm commit
 
 ```text
 Geeker-Admin
-├─ .husky                 # husky 配置文件
 ├─ .vscode                # VSCode 推荐配置
 ├─ build                  # Vite 配置项
 ├─ public                 # 静态资源文件（该文件夹不会被打包）
